@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JavaScript Form Validation</title>
+</head>
+<body>
+    <main class="container">
+        <section class="content">
+            <section class="logo">
+                <img src="./logo.svg" alt="">
+            </section>
+            <section class="image">
+            </section>
+            <section class="text">
+                Start for Free & Get<br>
+                Attractive offers Today ! 
+            </section>
+        </section>
+        <form id="form">
+            <section class="social">
+                <section class="title">Get Started</section>
+                <section class="question">
+                    Already Have an Account?<br>
+                    <span>Log In</span>
+                </section>
+                <section class="btn">
+                    <div class="btn-1">
+                        <img src="/icons8-google-48.png" style="width: 30px;" alt="">
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="/icons8-facebook-50.png" style="width: 33px;" alt="">
+                        Sign Up
+                    </div>
+                </section>
+                <section class="or">Or</section>
+            </section>
+            <!-- user name -->
+            <section>
+                <label for="user-name">User Name</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="user-name" id="user" placeholder="Abir Hasan">
+                <div class="input-wrapper">
+                    <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                    <i class="fa-regular fa-circle-check succ-icon"></i>
+                </div>
+                <div class="error"></div>
+            </section>
+            <!-- Email -->
+            <section>
+                <label for="email">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" id="email" placeholder="abc@gmail">
+                <div class="input-wrapper">
+                    <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                    <i class="fa-regular fa-circle-check succ-icon"></i>
+                </div>
+                <div class="error"></div>
+            </section>
+            <!-- password -->
+            <section>
+                <label for="password">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" name="password" id="password" placeholder="Password">
+                <div class="input-wrapper">
+                    <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                    <i class="fa-regular fa-circle-check succ-icon"></i>
+                </div>
+                <div class="error"></div>  
+            </section>
+            <!-- button -->
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+    
+    <script src="code.js"></script>
+</body>
+</html>
