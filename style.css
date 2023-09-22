@@ -94,6 +94,10 @@ form section i{
 }
 .input-wrapper i{
     right: 0;
+    top: 30%;
+}
+.input-wrapper-2 i{
+    right: 0;
     top: 40%;
 }
 .fail-icon {
